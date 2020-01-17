@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/tanbirhossain/CopyObject</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tanbirhossain/CopyObject</RepositoryUrl>
+    <PackageTags>mapper</PackageTags>
+    <Authors>Mohammed Tanbir Hossain</Authors>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
