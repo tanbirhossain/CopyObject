@@ -23,3 +23,20 @@ Or
 ```
 dotnet add package CopyObject
 ```
+### How to use?
+```
+using System;
+
+namespace Test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            User userEntity = new User() { Id = 1, Name = "Ovi", DOB = DateTime.UtcNow };
+            UserVM userVM = new UserVM();
+            userVM.CopyObjectFrom(userEntity);
+        }
+    }
+}
+```
