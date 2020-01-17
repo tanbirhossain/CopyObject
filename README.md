@@ -22,7 +22,7 @@ Or
 ```
 dotnet add package CopyObject
 ```
-## How to use?
+## How to use ?
 ```
 using System;
 
