@@ -3,6 +3,16 @@
 # CopyObject
 CopyObject is a object-to-object mapping dotnet library that can be used to map objects belonging to dissimilar types
 
+## Build Status
+
+Appveyor
+:-:
+[![Build status][ai]][al]
+<!-- a and c are the first letter of CI plugins. i is icon and l is link. -->
+
+[ai]: https://ci.appveyor.com/api/projects/status/efju4g16n15iwgq1?svg=true
+[al]: https://ci.appveyor.com/project/tanbirhossain/copyobject
+
 ## NuGet Package
 
 [![](https://img.shields.io/nuget/v/CopyObject.svg)](https://www.nuget.org/packages/CopyObject)
