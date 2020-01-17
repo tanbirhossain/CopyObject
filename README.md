@@ -1,8 +1,7 @@
 <!-- Icon here -->
 
 # CopyObject
-CopyObject is a popular object-to-object mapping .net library that can be used to map objects belonging to dissimilar types
-
+CopyObject is a object-to-object mapping dotnet library that can be used to map objects belonging to dissimilar types
 
 ## NuGet Package
 
