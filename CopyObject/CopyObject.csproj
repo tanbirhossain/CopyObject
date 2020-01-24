@@ -8,7 +8,8 @@
     <RepositoryUrl>https://github.com/tanbirhossain/CopyObject</RepositoryUrl>
     <PackageTags>mapper</PackageTags>
     <Authors>Mohammed Tanbir Hossain</Authors>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
+    <Description>CopyObject is a object-to-object mapping dotnet library that can be used to map objects belonging to dissimilar types.</Description>
   </PropertyGroup>
 
 </Project>

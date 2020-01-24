@@ -12,9 +12,14 @@ namespace CopyObject.Tests
         [TestMethod]
         public void TestMethod1()
         {
+            // Arrange
             User userEntity = new User() { Id =1, Name= "Ovi", DOB=DateTime.UtcNow};
+
+            //Act
             UserVM userVM = new UserVM();
             userVM.CopyObjectFrom(userEntity);
+
+            //Assert
             Assert.AreEqual(userVM.Name, userEntity.Name);
             Assert.AreEqual(userVM.DOB, userEntity.DOB);
             Assert.AreEqual(userVM.Id, userEntity.Id);
